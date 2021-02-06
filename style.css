@@ -1,0 +1,148 @@
+*{
+	margin: 0; 
+	padding: 0; 
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.container{ 
+	width: 100%; 
+	height: 100%; 
+	background: #333300;
+}
+.menu{
+	background: rgba(0,0,0,0.7);
+}
+.menu ul{
+	position: fixed;
+	display: inline-flex; 
+	margin: 40px;	
+}
+.menu ul li{
+	list-style: none; 
+}
+.menu ul li a {
+	margin: 0 12px; 
+ 	text-decoration: none;
+  	text-transform: uppercase;
+  	color: #999966;
+  	font-family:cursive;
+}
+.logo img{
+	width: 150px; 
+	margin-top: -20; 
+	margin-right: 48px;
+}
+.PO_btn{
+	margin-top: -10px;
+	right: -100%;
+	position: absolute;
+	opacity: 0.5;
+	text-decoration: none;
+	color: #ffff66;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	background-image: linear-gradient(#1a1a00,#1a1a00), radial-gradient(circle at top left,#808000,#ffff66);
+	background-origin: border-box;
+	background-clip:content-box,border-box;
+}
+.PO_btn span{
+	display: block;
+	padding: 8px 22px;
+}
+.PO_btn:hover{ opacity: 1; }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+section h1 {
+  font-size: 2rem;
+  margin-left: -800px;
+  margin-top: 100px;
+  color: white;
+  font-family: 'Brush Script MT', cursive;
+}
+
+section#home {
+    background-image: url(bground.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+section#ourfood {
+    background-image: url(bground1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+section#about {
+    background-image: url(bground2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+section#opening {
+	background-image: url(bground2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box-img2{
+  border-radius: 50%;
+  width: 300px;
+  height: 200px;
+  margin-right:800px;
+  margin-top: -300px;
+  animation: rotation 10s infinite linear;
+}
+.box-img1{
+  width: 100%;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+
+
+	
+
+
+

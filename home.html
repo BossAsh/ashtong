@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Group Namin</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script>
+   function myFunction(){
+  var txt;
+    var token = prompt("Please enter your token for placing Orders!");
+  if (token ==  "groupproject") {
+    window.open("place.html");
+  } else {
+    alert("Wrong token/Please insert token");
+  }
+}
+  </script>
+</head>
+<body>
+	<div class ="container">
+		<div class = "menu">
+			<ul>
+				<li class = "logo"><img src="bosslang.png"</li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#ourfood">Our Food</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#opening">Opening Hours</a></li>
+				<li><button onclick="myFunction()" class = "PO_btn"><span>Place Order</span></a></li>
+			</ul>
+	 </div>
+	<section id="home">
+    <h1> Sulit sa laki! Sulit sa Sarap!</h1>
+    <img src="bosslang.png" alt="" class="box-img2">
+  	</section>
+  	<section id="ourfood">
+      <img src="Menu.png" alt="" class="box-img1">
+  	</section>
+  	<section id="about">
+      <div class="box">
+    <img src="bosslang.png" alt="" class="box-img">
+    <h5>Boss Ramz Snacks</h5>
+    <p><br>Boss Ramz started in 2020 and is dubbed as “Boss ramz lang SAKALAM” because it is the original in offering 4 BIG pieces of siomai in one serving and many more products. Every bite is guaranteed with good taste and with no extenders which truly gives value for money. <br> This project is brought to you by:<br> Ashley Rambuyong for project purposes</p>
+ 	</section>
+ 	<section id="opening">
+
+       <div class="box">
+    <img src="bosslang.png" alt="" class="box-img">
+    <h5>OPENING HOURS</h5>
+    <p><br>MONDAY TO SUNDAY ----------------------- 8:00AM to 10:00PM</p>
+  	</section>
+
+</body>
+</html>
